@@ -1,6 +1,6 @@
 Package.describe({
   summary: "UI vocabulary for ClinicalFramework.",
-  version: "1.0.0",
+  version: "1.0.1",
   git: "http://github.com/awatson1978/clinical-ui-vocabulary.git",
   name: "clinical:ui-vocabulary"
 });
