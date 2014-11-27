@@ -1,6 +1,6 @@
 Package.describe({
   summary: "UI vocabulary for ClinicalFramework.",
-  version: "1.0.3",
+  version: "1.0.4",
   git: "http://github.com/awatson1978/clinical-ui-vocabulary.git",
   name: "clinical:ui-vocabulary"
 });
@@ -8,7 +8,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('METEOR@1.0');
   api.use('less@1.0.0');
-  api.use('ian:bootstrap-3');
+  api.use('ian:bootstrap-3@3.3.1');
 
   api.addFiles('anchoring.less', 'client');
   //api.addFiles('borders.less', 'client');
