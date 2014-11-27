@@ -1,59 +1,84 @@
-clinical-ui-vocabulary
-=========================
+## clinical:ui-vocabulary
+
 
 Package to provide semantic CSS classes to your app.  Based on Bootstrap3.  
 
 
-## Installation
+=========================
+#### Installation
 
-First, install the clinical-ui-vocabulary package from the command line, like so:
+Simply nstall the clinical-ui-vocabulary package from the command line, like so:
 
 ````js
-mrt add clinical-ui-vocabulary
+meteor add clinical:ui-vocabulary
 ````
 
-Alternatively, if you'd like to bypass Atmosphere, and install directly from GitHub, you could update your application's smart.json file, like so:
+Then feel free to use the following CSS classes in your application.  
 
-````json
-{
-  "meteor": {
-    "branch": "master"
-  },
-  "packages": {
-    "mousetrap": {
-      "git": "https://github.com/awatson1978/clinical-ui-vocabulary.git"
-    }
-  }
-}
-````
+=========================
+#### Vocabulary - Anchoring  
 
-## Supported Syntax  
+- fixed-layout
+- left-anchored
+- right-anchored
+- bottom-anchored
+- top-anchored
+- right-aligned
+- left-aligned
+- absolute-layout
+- fixed-layout
+
+=========================
+#### Vocabulary - Borders  
+
+- gray-border
+- with-rounded-corners
+
+=========================
+#### Vocabulary - Fonts  
+
+- monospace  
+
+=========================
+#### Vocabulary - Haptics  
 
 - clickable
 - unselectable
-- fullwidth
-- fullheight
-- bold
-- centered
-- strikeout
+
+=========================
+#### Vocabulary - Padding
+
+- well-behaved  
 - padded
-- padded-horizontal
-- with-horizontal-padding
-- horizontally-padded
-- padded-vertical
-- with-vertical-padding
-- vertically-padded
-- without-padding
-- nopadding
-- no-padding
+- padded-horizontal, with-horizontal-padding, horizontally-padded
+- padded-vertical, with-vertical-padding, vertically-padded
+- with-right-padding
+- with-left-padding
+
+- without-padding, nopadding, no-padding
 - without-right-padding
 - without-left-padding
 - without-top-padding
 - without-bottom-padding
-- with-margins
-- with-bottom-spacer
-- with-bottom-padding
-- with-top-spacer
-- with-top-padding
-- with-right-padding
-- with-left-padding
+- without-vertical-padding
+- without-horizontal-padding
+
+=========================
+#### Vocabulary - Colors
+
+- dark
+- light
+- white
+- black
+- gray
+- lightgray
+- darkgray
+- transparent
+- glass
+- fog
+- mostly-opaque
+- red
+- blue
+- green
+- maroon
+- etc

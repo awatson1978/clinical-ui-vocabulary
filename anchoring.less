@@ -1,23 +1,17 @@
+//---------------------------------
+// layouts
 
-
-// vertical anchors
-.bottom-anchored{
-  position: fixed;
-  bottom: 50px;
+.absolute-layout{
+  position:absolute;
 }
-.bottom-anchor{
+.fixed-layout{
   position: fixed;
-  bottom: 0px;
-  width: 100%;
-  z-index: 1000;
-}
-.top-anchored{
-  position: fixed;
-  top: 60px;
 }
 
 
-// horizontal anchors
+//---------------------------------
+// anchoring
+
 .left-anchored{
   position: fixed;
   left: 0px;
@@ -31,8 +25,25 @@
   float: right;
   right: 0px;
 }
+
+
+.bottom-anchored{
+  position: fixed;
+  bottom: 0px;
+}
+.top-anchored{
+  position: fixed;
+  top: 0px;
+}
+
+
+// alignment
+
 .right-aligned{
   text-align: right;
+}
+.left-aligned{
+  text-align: left;
 }
 
 
